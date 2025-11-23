@@ -1,0 +1,87 @@
+---
+title: "Miguel Malabayabas"
+subtitle: "Senior Analytics Engineer"
+image: profile.jpg
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - text: LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/miguelmalabayabas"
+    - text: GitHub
+      icon: github
+      url: "https://github.com/mk-mala"
+    - text: Resume
+      icon: filetype-pdf
+      url: "pages/resume.qmd"
+comments: false
+---
+::: {.column-page}
+
+## Professional Summary
+<hr>
+[Placeholder]
+
+## Core Competencies
+<hr>
+
+**Leadership & Strategy:**
+
+  - [Placeholder]
+
+**Data Engineering:** 
+ 
+  - Data Orchestration (Airflow & Dagster)
+  - Data Integration (Fivetran & AWS Glue)
+
+**Analytics Engineering:**
+
+  - Data Transformation (dbt)
+  - Data Modeling
+
+**Data Analysis:**
+
+  - Exploratory Data Analysis
+  - Storytelling with Data
+  - Data Wrangling
+  - Statistical Analysis
+
+**Data Product & Visualization:**
+
+  - Interactive Dashboards (Streamlit, Dash, Shiny, and Quarto)
+  - Business Intelligence (Tableau, Microsoft Power BI, and MicroStrategy)
+
+**Database Management:**
+
+  - Amazon Redshift & S3
+  - Oracle SQL Developer
+  - Microsoft SQL Server
+  - Snowflake
+
+**Enterprise Systems:**
+
+  - Salesforce CRM
+  - Oracle NetSuite
+  - Bloomberg Terminal
+
+**Project Management:**
+
+  - Project Management Software (Atlassian JIRA)
+  - Master Data Management
+  - Agile & Kanban
+
+**Process Management**
+
+  - Process Improvement
+  - Process Automation
+  - Standard Operating Procedures
+
+**Computer Programming:**
+
+  - Python
+  - SQL
+  - VBA
+  - HTML
+  - CSS
+ 
