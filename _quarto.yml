@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+
+  page-footer: 
+    center: "Built with [Quarto](https://quarto.org/) &copy; 2025 Miguel Malabayabas"
+  
+  navbar:
+    left:
+    - text: "Home"
+      href: index.qmd
+    - text: "Resume"
+      href: pages/resume.qmd
+    - text: "Projects"
+      href: pages/projects.qmd
+    - text: "Dashboards"
+      menu:
+        - text: "Streamlit"
+          href: pages/streamlit.qmd
+        - text: "Quarto"
+          href: pages/quarto.qmd
+    - text: "Charts"
+      href: pages/charts.qmd
+    - text: "Articles"
+      href: pages/articles.qmd
+    right:
+    - icon: github
+      href: https://github.com/mk-mala
+    - icon: linkedin
+      href: https://www.linkedin.com/in/miguelmalabayabas
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    toc-title: On this page
+    toc-location: right
