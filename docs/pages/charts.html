@@ -77,20 +77,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-charts .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-charts'] = new List('listing-charts', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -371,7 +371,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QmFzZWJhbGw=">Baseball <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -395,16 +395,43 @@ window.Quarto = {
 </header>
 
 
+<div id="listing-charts" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="QmFzZWJhbGw=" data-listing-date-sort="1764050400000" data-listing-file-modified-sort="1764130598470" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="177">
+<div class="thumbnail"><a href="../pages/charts/01/pythagorean_expectation.html" class="no-external">
 
+<img loading="lazy" src="../pages/charts/01/pythagorean_expectation.png" class="thumbnail-image">
 
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../pages/charts/01/pythagorean_expectation.html" class="no-external">Pythagorean Expectation</a>
+</h3>
+<div class="listing-categories">
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
+<div class="listing-category" onclick="window.quartoListingCategory('QmFzZWJhbGw='); return false;">Baseball</div>
 
 </div>
+<div class="delink listing-description"><a href="../pages/charts/01/pythagorean_expectation.html" class="no-external">
+<p>Realized win and expected win differentials</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../pages/charts/01/pythagorean_expectation.html" class="no-external">
+<div class="listing-date">
+Nov 25, 2025
+</div>
+<div class="listing-author">
+Miguel Malabayabas
+</div>
+</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</div>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -825,8 +852,8 @@ window.Quarto = {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>Built with <a href="https://quarto.org/">Quarto</a> © 2025 Miguel Malabayabas</p>
-</div>
+      <div class="footer-contents">Built with [Quarto](https://quarto.org/) © 2025 Miguel Malabayabas</div>  
+    </div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
