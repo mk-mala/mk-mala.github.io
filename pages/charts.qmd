@@ -1,7 +1,11 @@
 ---
 title: "Charts"
 listing:
-  contents: posts
-  type: grid
+  id: charts
+  contents: charts
+  sort: "date desc"
+  type: default
   categories: true
 ---
+
+::: {#charts}
