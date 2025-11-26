@@ -5,7 +5,9 @@
   },
   {
     "listing": "/pages/charts.html",
-    "items": []
+    "items": [
+      "/pages/charts/01/pythagorean_expectation.html"
+    ]
   },
   {
     "listing": "/pages/projects.html",
