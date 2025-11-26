@@ -1,0 +1,75 @@
+---
+title: "Pythagorean Expectation"
+description: "Realized win and expected win differentials"
+author:
+  - name: Miguel Malabayabas
+date: '2025-11-25'
+categories: ["Baseball"]
+image: pythagorean_expectation.png
+title-block-banner: false
+format: 
+  html:
+    toc: true
+execute:
+  echo: false
+---
+
+<hr>
+
+Pythagorean expectation estimates how many games a team should have won based on its runs scored and allowed. This chart shows the difference between each team’s realized wins and expected wins during the 2025 MLB regular season.
+
+<b>Key Insights:</b> 
+
+  - The Cleveland Guardians, Miami Marlins, and Los Angeles Angels outperformed their Pythagorean expectations by eight wins.
+  - The Texas Rangers and Chicago White Sox fell short, losing ten more games than expected.
+  - Surprisingly, the World Series champion Los Angeles Dodgers finished the regular season with three fewer wins than expected.
+
+  <hr>
+
+```{python}
+import pandas as pd
+import numpy as np
+import plotly.express as px
+
+df = pd.read_csv('2025_win_loss_runs.csv')
+
+df['win_ratio'] = (df['runs_scored'] ** 2) / ((df['runs_scored'] ** 2) + (df['runs_allowed'] ** 2))
+
+df['wins_expected'] = ((df['wins'] + df['losses']) * df['win_ratio']).round(0).astype('Int64')
+
+df['wins_differential'] = df['wins'] - df['wins_expected']
+
+df['differential'] = np.where(
+  df['wins_differential'] >= 0,
+  'over',
+  'under'
+)
+
+df = df.sort_values(by=['wins_differential'], ascending=False)
+
+fig_bar = px.bar(
+  df,
+  x='team',
+  y='wins_differential',
+  color='differential',
+  color_discrete_sequence=["green", "red"],
+  title='<b>Relative Performance to Pythagorean Expectation</b>'
+)
+
+fig_bar.update_layout(
+  xaxis_title="",
+  yaxis_title="Win Differential",
+  showlegend=False,
+  margin_t=65
+)
+
+fig_bar.update_traces(texttemplate='%{y}', textposition='outside')
+fig_bar.update_xaxes(tickangle=-45)
+fig_bar.update_yaxes(range=[-15, 15])
+
+fig_bar.show()
+```
+
+<hr>
+
+<b>Data:</b> 2025 MLB Regular Season Standings
