@@ -15,12 +15,6 @@ website:
       href: pages/resume.qmd
     - text: "Projects"
       href: pages/projects.qmd
-    - text: "Dashboards"
-      menu:
-        - text: "Streamlit"
-          href: pages/streamlit.qmd
-        - text: "Quarto"
-          href: pages/quarto.qmd
     - text: "Charts"
       href: pages/charts.qmd
     - text: "Articles"

@@ -1,7 +1,19 @@
 ---
-title: "Projects"
+title: ""
 listing:
   contents: posts
   type: grid
-  categories: true
+  #categories: true
+toc: true
+toc-title: Table of Contents
 ---
+
+## Labor Statistics
+
+A Streamlit application to analyze and visualize labor statistics at the country, state, region, and local level.
+
+<b>Website:</b> <https://labor-statistics.streamlit.app/>
+<br><b>Front-End:</b> Streamlit
+<br><b>Server:</b> Streamlit Cloud
+<br><b>Database:</b> DuckDB
+<br><b>Language:</b> Python & SQL

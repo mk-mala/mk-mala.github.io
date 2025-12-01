@@ -1,7 +1,0 @@
----
-title: "Dashboards"
-listing:
-  contents: posts
-  type: grid
-  categories: true
----
