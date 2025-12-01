@@ -58,9 +58,9 @@
   {
     "objectID": "pages/projects.html",
     "href": "pages/projects.html",
-    "title": "Projects",
+    "title": "",
     "section": "",
-    "text": "No matching items"
+    "text": "A Streamlit application to analyze and visualize labor statistics at the country, state, region, and local level.\nWebsite: https://labor-statistics.streamlit.app/ Front-End: Streamlit Server: Streamlit Cloud Database: DuckDB Language: Python & SQL"
   },
   {
     "objectID": "pages/dashboards.html",
@@ -75,5 +75,12 @@
     "title": "Pythagorean Expectation",
     "section": "",
     "text": "Pythagorean expectation estimates how many games a team should have won based on its runs scored and allowed. This chart shows the difference between each team’s realized wins and expected wins during the 2025 MLB regular season.\nKey Insights:\n\nThe Cleveland Guardians, Miami Marlins, and Los Angeles Angels outperformed their Pythagorean expectations by eight wins.\nThe Texas Rangers and Chicago White Sox fell short, losing ten more games than expected.\nSurprisingly, the World Series champion Los Angeles Dodgers finished the regular season with three fewer wins than expected.\n\n\n\n\n                            \n                                            \n\n\n\nData: 2025 MLB Regular Season Standings"
+  },
+  {
+    "objectID": "pages/projects.html#labor-statistics",
+    "href": "pages/projects.html#labor-statistics",
+    "title": "",
+    "section": "",
+    "text": "A Streamlit application to analyze and visualize labor statistics at the country, state, region, and local level.\nWebsite: https://labor-statistics.streamlit.app/ Front-End: Streamlit Server: Streamlit Cloud Database: DuckDB Language: Python & SQL"
   }
 ]
