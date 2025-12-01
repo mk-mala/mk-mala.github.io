@@ -1,5 +1,0 @@
----
-title: "Quarto Dashboards"
-subtitle: "Analyze. Share. Reproduce."
-toc: true
----
