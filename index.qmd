@@ -21,67 +21,10 @@ comments: false
 
 ## Professional Summary
 <hr>
-[Placeholder]
+Results-driven analytics engineer with over a decade of experience transforming complex business challenges into scalable, reliable, high-impact data solutions.
 
-## Core Competencies
-<hr>
+Proven track record of building robust data pipelines, modernizing analytics ecosystems, and delivering actionable insights that influence strategic decision-making across operations, portfolio management, risk management, sales, marketing, finance, and product teams. 
 
-**Leadership & Strategy:**
+Lead process engineering initatives to transform high-volume manual workflows into automated, scalable systems that enhance operational efficiency, reduce operational risk, and strengthen controls.
 
-  - [Placeholder]
-
-**Data Engineering:** 
- 
-  - Data Orchestration (Airflow & Dagster)
-  - Data Integration (Fivetran & AWS Glue)
-
-**Analytics Engineering:**
-
-  - Data Transformation (dbt)
-  - Data Modeling
-
-**Data Analysis:**
-
-  - Exploratory Data Analysis
-  - Storytelling with Data
-  - Data Wrangling
-  - Statistical Analysis
-
-**Data Product & Visualization:**
-
-  - Interactive Dashboards (Streamlit, Dash, Shiny, and Quarto)
-  - Business Intelligence (Tableau, Microsoft Power BI, and MicroStrategy)
-
-**Database Management:**
-
-  - Amazon Redshift & S3
-  - Oracle SQL Developer
-  - Microsoft SQL Server
-  - Snowflake
-
-**Enterprise Systems:**
-
-  - Salesforce CRM
-  - Oracle NetSuite
-  - Bloomberg Terminal
-
-**Project Management:**
-
-  - Project Management Software (Atlassian JIRA)
-  - Master Data Management
-  - Agile & Kanban
-
-**Process Management**
-
-  - Process Improvement
-  - Process Automation
-  - Standard Operating Procedures
-
-**Computer Programming:**
-
-  - Python
-  - SQL
-  - VBA
-  - HTML
-  - CSS
- 
+Experienced in partnering with technical and non-technical stakeholders, leading enterprise-wide reporting initiatives, and elevating data quality and reliability through strong engineering practices.
