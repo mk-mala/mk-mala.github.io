@@ -1,7 +1,7 @@
 ## Education
 
 **Northwestern University** [Class of 2018]{style="float:right"}  
-Master of Science - Predictive Analytics  
+Master of Science - Data Science (Formerly Predictive Analytics)
 
 **California State University, Fullerton** [Class of 2011]{style="float:right"}  
 Master of Business Administration - Finance  
@@ -31,3 +31,70 @@ Senior Investment Data Analyst
 Process Management & Automation Analyst  
 Brokerage Operations Leadership Development Rotation Analyst  
 
+## Core Business & Technical Competencies
+
+<!--
+**Leadership & Strategy:**
+
+  - [Placeholder]
+
+**Operations Management:**
+
+  - [Placeholder]
+-->
+
+**Data Engineering:** 
+ 
+  - Data Orchestration (Airflow & Dagster)
+  - Data Integration (Fivetran & AWS Glue)
+
+**Analytics Engineering:**
+
+  - Data Transformation (dbt)
+  - Data Modeling
+
+**Data Analysis:**
+
+  - Exploratory Data Analysis
+  - Storytelling with Data
+  - Data Wrangling
+  - Statistical Analysis
+
+**Data Product & Visualization:**
+
+  - Interactive Dashboards (Streamlit, Dash, Shiny, and Quarto)
+  - Business Intelligence (Tableau, Microsoft Power BI, and MicroStrategy)
+
+**Database Management:**
+
+  - Amazon Redshift & S3
+  - Oracle SQL Developer
+  - Microsoft SQL Server
+  - Snowflake
+
+**Enterprise Systems:**
+
+  - Salesforce CRM
+  - Oracle NetSuite
+  - Bloomberg Terminal
+
+**Project Management:**
+
+  - Project Management Software (Atlassian JIRA)
+  - Master Data Management
+  - Agile & Kanban
+
+**Process Management**
+
+  - Process Improvement
+  - Process Automation
+  - Standard Operating Procedures
+
+**Computer Programming:**
+
+  - Python
+  - SQL
+  - VBA
+  - HTML
+  - CSS
+ 

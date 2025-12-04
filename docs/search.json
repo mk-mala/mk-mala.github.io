@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Miguel Malabayabas",
     "section": "",
-    "text": "[Placeholder]\n\n\n\n\nLeadership & Strategy:\n\n[Placeholder]\n\nData Engineering:\n\nData Orchestration (Airflow & Dagster)\nData Integration (Fivetran & AWS Glue)\n\nAnalytics Engineering:\n\nData Transformation (dbt)\nData Modeling\n\nData Analysis:\n\nExploratory Data Analysis\nStorytelling with Data\nData Wrangling\nStatistical Analysis\n\nData Product & Visualization:\n\nInteractive Dashboards (Streamlit, Dash, Shiny, and Quarto)\nBusiness Intelligence (Tableau, Microsoft Power BI, and MicroStrategy)\n\nDatabase Management:\n\nAmazon Redshift & S3\nOracle SQL Developer\nMicrosoft SQL Server\nSnowflake\n\nEnterprise Systems:\n\nSalesforce CRM\nOracle NetSuite\nBloomberg Terminal\n\nProject Management:\n\nProject Management Software (Atlassian JIRA)\nMaster Data Management\nAgile & Kanban\n\nProcess Management\n\nProcess Improvement\nProcess Automation\nStandard Operating Procedures\n\nComputer Programming:\n\nPython\nSQL\nVBA\nHTML\nCSS"
+    "text": "Results-driven analytics engineer with over a decade of experience transforming complex business challenges into scalable, reliable, high-impact data solutions.\nProven track record of building robust data pipelines, modernizing analytics ecosystems, and delivering actionable insights that influence strategic decision-making across operations, portfolio management, risk management, sales, marketing, finance, and product teams.\nLead process engineering initatives to transform high-volume manual workflows into automated, scalable systems that enhance operational efficiency, reduce operational risk, and strengthen controls.\nExperienced in partnering with technical and non-technical stakeholders, leading enterprise-wide reporting initiatives, and elevating data quality and reliability through strong engineering practices."
   },
   {
     "objectID": "index.html#professional-summary",
     "href": "index.html#professional-summary",
     "title": "Miguel Malabayabas",
     "section": "",
-    "text": "[Placeholder]"
+    "text": "Results-driven analytics engineer with over a decade of experience transforming complex business challenges into scalable, reliable, high-impact data solutions.\nProven track record of building robust data pipelines, modernizing analytics ecosystems, and delivering actionable insights that influence strategic decision-making across operations, portfolio management, risk management, sales, marketing, finance, and product teams.\nLead process engineering initatives to transform high-volume manual workflows into automated, scalable systems that enhance operational efficiency, reduce operational risk, and strengthen controls.\nExperienced in partnering with technical and non-technical stakeholders, leading enterprise-wide reporting initiatives, and elevating data quality and reliability through strong engineering practices."
   },
   {
     "objectID": "index.html#core-competencies",
@@ -39,14 +39,14 @@
     "href": "pages/resume.html",
     "title": "",
     "section": "",
-    "text": "Northwestern University Class of 2018\nMaster of Science - Predictive Analytics\nCalifornia State University, Fullerton Class of 2011\nMaster of Business Administration - Finance\nHawai’i Pacific University Class of 2008\nBachelor of Science in Business Administration - Finance"
+    "text": "Northwestern University Class of 2018\nMaster of Science - Data Science (Formerly Predictive Analytics)\nCalifornia State University, Fullerton Class of 2011\nMaster of Business Administration - Finance\nHawai’i Pacific University Class of 2008\nBachelor of Science in Business Administration - Finance"
   },
   {
     "objectID": "pages/resume.html#education",
     "href": "pages/resume.html#education",
     "title": "",
     "section": "",
-    "text": "Northwestern University Class of 2018\nMaster of Science - Predictive Analytics\nCalifornia State University, Fullerton Class of 2011\nMaster of Business Administration - Finance\nHawai’i Pacific University Class of 2008\nBachelor of Science in Business Administration - Finance"
+    "text": "Northwestern University Class of 2018\nMaster of Science - Data Science (Formerly Predictive Analytics)\nCalifornia State University, Fullerton Class of 2011\nMaster of Business Administration - Finance\nHawai’i Pacific University Class of 2008\nBachelor of Science in Business Administration - Finance"
   },
   {
     "objectID": "pages/resume.html#professional-experience",
@@ -82,5 +82,19 @@
     "title": "",
     "section": "",
     "text": "A Streamlit application to analyze and visualize labor statistics at the country, state, region, and local level.\nWebsite: https://labor-statistics.streamlit.app/ Front-End: Streamlit Server: Streamlit Cloud Database: DuckDB Language: Python & SQL"
+  },
+  {
+    "objectID": "index.html#core-business-technical-competencies",
+    "href": "index.html#core-business-technical-competencies",
+    "title": "Miguel Malabayabas",
+    "section": "",
+    "text": "Leadership & Strategy:\n\n[Placeholder]\n\nOperations Management:\n\n[Placeholder]\n\nData Engineering:\n\nData Orchestration (Airflow & Dagster)\nData Integration (Fivetran & AWS Glue)\n\nAnalytics Engineering:\n\nData Transformation (dbt)\nData Modeling\n\nData Analysis:\n\nExploratory Data Analysis\nStorytelling with Data\nData Wrangling\nStatistical Analysis\n\nData Product & Visualization:\n\nInteractive Dashboards (Streamlit, Dash, Shiny, and Quarto)\nBusiness Intelligence (Tableau, Microsoft Power BI, and MicroStrategy)\n\nDatabase Management:\n\nAmazon Redshift & S3\nOracle SQL Developer\nMicrosoft SQL Server\nSnowflake\n\nEnterprise Systems:\n\nSalesforce CRM\nOracle NetSuite\nBloomberg Terminal\n\nProject Management:\n\nProject Management Software (Atlassian JIRA)\nMaster Data Management\nAgile & Kanban\n\nProcess Management\n\nProcess Improvement\nProcess Automation\nStandard Operating Procedures\n\nComputer Programming:\n\nPython\nSQL\nVBA\nHTML\nCSS"
+  },
+  {
+    "objectID": "pages/resume.html#core-business-technical-competencies",
+    "href": "pages/resume.html#core-business-technical-competencies",
+    "title": "",
+    "section": "Core Business & Technical Competencies",
+    "text": "Core Business & Technical Competencies\n\nData Engineering:\n\nData Orchestration (Airflow & Dagster)\nData Integration (Fivetran & AWS Glue)\n\nAnalytics Engineering:\n\nData Transformation (dbt)\nData Modeling\n\nData Analysis:\n\nExploratory Data Analysis\nStorytelling with Data\nData Wrangling\nStatistical Analysis\n\nData Product & Visualization:\n\nInteractive Dashboards (Streamlit, Dash, Shiny, and Quarto)\nBusiness Intelligence (Tableau, Microsoft Power BI, and MicroStrategy)\n\nDatabase Management:\n\nAmazon Redshift & S3\nOracle SQL Developer\nMicrosoft SQL Server\nSnowflake\n\nEnterprise Systems:\n\nSalesforce CRM\nOracle NetSuite\nBloomberg Terminal\n\nProject Management:\n\nProject Management Software (Atlassian JIRA)\nMaster Data Management\nAgile & Kanban\n\nProcess Management\n\nProcess Improvement\nProcess Automation\nStandard Operating Procedures\n\nComputer Programming:\n\nPython\nSQL\nVBA\nHTML\nCSS"
   }
 ]
